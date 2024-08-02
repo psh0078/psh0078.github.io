@@ -4,6 +4,11 @@
   <body a="{{ site.theme_config.appearance | default: "auto" }}">
     <main class="page-content" aria-label="Content">
       <div class="w">
+        <div class="nav">
+          <a href="/">home</a>
+          <a href="/archive">post</a>
+          <a href="/about">about</a>
+        </div>
         {{ content }}
       </div>
     </main>
