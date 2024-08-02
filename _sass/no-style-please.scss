@@ -1,6 +1,14 @@
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
-  filter: invert(1);
+  // filter: invert(1);
+  background-color: #222222 !important;
+  color: white !important;
+  a {
+    color: cyan !important;
+    &:visited {
+      color: lighten(cyan, 20%) !important;
+    }
+  }
   img {
     filter: invert(1);
 
