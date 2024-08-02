@@ -2,18 +2,16 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: about me
-    entries:
-      - title: Hi, my name is SeongHo.
-
-  - title: all posts
+  - title: (all posts)
     post_list:
       limit: 5
       show_more: true
       show_more_text: see archive...
       show_more_url: archive.html
 
-  - title: recent-reading
+  - title: (MantaLab)
+
+  - title: (recent-reading)
     entries:
       - title: the-c-programming-language
         url: https://www.goodreads.com/book/show/515601.The_C_Programming_Language

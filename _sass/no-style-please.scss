@@ -1,12 +1,17 @@
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   // filter: invert(1);
-  background-color: #222222 !important;
-  color: white !important;
+  background-color: #222222;
+  color: white;
   a {
-    color: cyan !important;
+    color: cyan;
+    text-decoration: none;
     &:visited {
-      color: lighten(cyan, 20%) !important;
+      color: lighten(cyan, 20%);
+    }
+    &#githubLink {
+      text-decoration: underline;
+      font-size: medium;
     }
   }
   img {
@@ -70,14 +75,14 @@ hr {
 table { width: 100%; }
 
 table, th, td {
-  border: thin solid black;
+  border: thin solid 222222;
   border-collapse: collapse;
   padding: 0.4rem;
 }
 
 code {
   color: white;
-  background: black;
+  background: 222222;
 }
 
 div.highlighter-rouge code {
@@ -89,7 +94,7 @@ div.highlighter-rouge code {
 
 blockquote {
   font-style: italic;
-  border: thin solid black;
+  border: thin solid 222222;
   padding: 1rem;
 
   p { margin: 0; }
