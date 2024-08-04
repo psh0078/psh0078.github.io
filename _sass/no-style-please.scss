@@ -15,7 +15,8 @@
     }
   }
   img {
-    filter: invert(1);
+    background-color: #222222;
+    color: white;
 
     &.ioda { filter: invert(0); }
   }
