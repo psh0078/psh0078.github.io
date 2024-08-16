@@ -10,6 +10,12 @@ entries:
       show_more_url: archive.html
 
   - title: (MantaLab)
+    entries:
+      - title: coming soon...
+
+  - title: (miniChess)
+    entrins:
+      - title: coming soon...
 
   - title: (recent-reading)
     entries:
@@ -17,3 +23,5 @@ entries:
         url: https://www.goodreads.com/book/show/515601.The_C_Programming_Language
       - title: ai-ethics
         url: https://www.goodreads.com/book/show/52563234-ai-ethics
+      - title: A Unified Theory of Garbage Collection
+        url: https://courses.cs.washington.edu/courses/cse590p/05au/p50-bacon.pdf
