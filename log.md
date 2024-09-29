@@ -1,3 +1,8 @@
+---
+layout: page
+title: log
+---
+
 # 2024-09-28
 1. Finish E&M and Adv hw early
 2. Get hours for adv lab
@@ -215,4 +220,3 @@ Email Mr. Hirt about flights
 - Work on PHY342 HW3 (Tackle all of the problems and list questions
 - Read and Practice ICS Floating
 - Study for Historic: Go over the study guide
-
