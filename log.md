@@ -3,8 +3,8 @@ layout: page
 title: log
 ---
 # 2024-09-30
-1. work on phy441 h5
-2. finish cos435 project 3
+1. finish cos435 project 3
+2. work on phy441 h5
 3. work on e&m
 
 # 2024-09-28
