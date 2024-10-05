@@ -2,6 +2,23 @@
 layout: page
 title: log
 ---
+# 2024-10-04
+## Week before fall break
+1. phy441 takehome
+2. enm hw6
+3. study for enm
+4. study for phy441
+5. work on adv lab
+
+# 2024-10-02
+1. Work on SoP
+2. Do GRE probs 
+3. Do
+correction for GRE quizzes
+9am work on h5 phy441
+11am enm
+1pm phy441
+
 # 2024-09-30
 1. finish cos435 project 3
 2. work on phy441 h5
