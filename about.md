@@ -11,8 +11,3 @@ These days, I spend my free time building my own chess engine in C and photo gal
 - C
 - Django
 - React
-
-(my-favorite-links)
-
-- <https://www.paulgraham.com/hwh.html>
-- <http://www.catb.org/~esr/faqs/hacker-howto.html>

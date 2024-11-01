@@ -2,6 +2,31 @@
 layout: page
 title: log
 ---
+# 2024-10-25
+## Weekly
+1. PHY441 h7
+2. PHI413 Scripture Engagement #1
+3. ENM H9
+4. COS435 p5 CFG
+## Today
+- Finish (2) of Weekly
+
+
+# 2024-10-24
+
+# 2024-10-21
+11am enm
+12pm lunch
+1pm phy441
+2pm phy330
+3pm work on phy441 h6 at dr. kiers office
+4pm-6pm helpdesk
+
+# 2024-10-17
+9am-10am work on takehome
+11am contemp
+
+
 # 2024-10-04
 ## Week before fall break
 1. phy441 takehome
