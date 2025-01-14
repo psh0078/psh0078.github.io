@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "rabbit hole"
+title: "rabbit hole"
 ---
 
 
