@@ -2,6 +2,9 @@
 layout: page
 title: log
 ---
+
+This is my weekly research log.
+
 # 2024-10-25
 ## Weekly
 1. PHY441 h7
