@@ -5,6 +5,8 @@ title: log
 
 This is my weekly research log
 
+# 
+
 # 09/05/2025
 
 reading _The Globus Compute Dataset_ by Prof. Bauer. Learning about how Globus works. Globus is a FaaS model and it basically gets requests for function invocation from nodes and provision them. So far this is my high level understanding of Globus.

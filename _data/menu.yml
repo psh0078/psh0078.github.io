@@ -2,10 +2,15 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: log
+  - title: (log)
     url: log.html
-  - title: links
+
+  - title: (links)
     url: links.html
+
+  - title: (ml compiler)
+    url: ml-compiler.html
+
   - title: (all posts)
     post_list:
       limit: 5
@@ -13,13 +18,13 @@ entries:
       show_more_text: see archive...
       show_more_url: archive.html
 
-  - title: (MantaLab)
-    entries:
-      - title: coming soon...
+  # - title: (MantaLab)
+  #   entries:
+  #     - title: coming soon...
 
-  - title: (miniChess)
-    entries:
-      - title: coming soon...
+  # - title: (miniChess)
+  #   entries:
+  #     - title: coming soon...
 
   - title: (recent-reading)
     entries:
