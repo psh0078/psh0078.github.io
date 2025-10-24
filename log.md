@@ -5,7 +5,16 @@ title: log
 
 This is my weekly research log
 
-# 
+# 10-14-2025
+Only picked numerical columns for scaling and fitting.
+Standardized feature values come out negative. 
+
+# 10-13-2025
+Today, I did some analysis on the dataset to gain insights into preprocessing.
+Our raw dataset is heterogeneous and non-Gaussian so it needs preprocessed for
+a GMM to train on it. For feature selection, we need pick only continuous numeric columns.
+Thankfully, scikit-learn offers many tools for preprocessing data.
+
 
 # 09/05/2025
 

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Iosevka';
+  src: url('../fonts/Iosevka/IosevkaNerdFontMono-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
   // filter: invert(1);
@@ -39,8 +46,8 @@ html { height: 100%; }
 
 body {
   color: black;
-  font-family: monospace;
-  font-size: 16px;
+  font-family: "Iosevka", monospace;
+  font-size: 18px;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
