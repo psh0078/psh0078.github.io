@@ -12,11 +12,12 @@ entries:
     url: ml-compiler.html
 
   - title: (all posts)
+    url: blog.html
     post_list:
       limit: 5
       show_more: true
-      show_more_text: see archive...
-      show_more_url: archive.html
+      show_more_text: see blog...
+      show_more_url: blog.html
 
   # - title: (MantaLab)
   #   entries:
