@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "a sense of purpose"
+published: false
 ---
 
 After a facetime call with DJ, I realize I have to specify what I want and

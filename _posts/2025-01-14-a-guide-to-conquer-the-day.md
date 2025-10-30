@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "a guide to conquer the day"
+published: false
 ---
 
 ### what is this about?

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "inside hustler's mind"
-visible: 1
+published: false
 ---
 
 I hereby put an end to my delicate, soft loser's mindset with which I risked
