@@ -2,15 +2,6 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: (log)
-    url: log.html
-
-  - title: (links)
-    url: links.html
-
-  - title: (ml compiler)
-    url: ml-compiler.html
-
   - title: (all posts)
     url: blog.html
     post_list:
@@ -18,20 +9,21 @@ entries:
       show_more: true
       show_more_text: see blog...
       show_more_url: blog.html
+      
+  # - title: (log)
+  #   url: log.html
 
-  # - title: (MantaLab)
+  - title: (links)
+    url: links.html
+
+  # - title: (ml compiler)
+  #   url: ml-compiler.html
+
+  # - title: (recent-reading)
   #   entries:
-  #     - title: coming soon...
-
-  # - title: (miniChess)
-  #   entries:
-  #     - title: coming soon...
-
-  - title: (recent-reading)
-    entries:
-      - title: the-c-programming-language
-        url: https://www.goodreads.com/book/show/515601.The_C_Programming_Language
-      - title: ai-ethics
-        url: https://www.goodreads.com/book/show/52563234-ai-ethics
-      - title: A Unified Theory of Garbage Collection
-        url: https://courses.cs.washington.edu/courses/cse590p/05au/p50-bacon.pdf
+  #     - title: the-c-programming-language
+  #       url: https://www.goodreads.com/book/show/515601.The_C_Programming_Language
+  #     - title: ai-ethics
+  #       url: https://www.goodreads.com/book/show/52563234-ai-ethics
+  #     - title: A Unified Theory of Garbage Collection
+  #       url: https://courses.cs.washington.edu/courses/cse590p/05au/p50-bacon.pdf
