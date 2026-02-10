@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "a guide to conquer the day"
+title: "a guide to conquering the day"
 published: true
 ---
 
