@@ -1,67 +1,214 @@
-/* @font-face { */
-/*   font-family: 'Iosevka'; */
-/*   src: url('https://psh0078.github.io/assets/fonts/Iosevka/IosevkaNerdFontMono-Regular.ttf') format('truetype'); */
-/*   font-weight: normal; */
-/*   font-style: normal; */
+/* // -------------- THEME SWITCHER -------------- // */
+/* @mixin dark-appearance { */
+/*   // filter: invert(1); */
+/*   background-color: #222222; */
+/*   color: white; */
+/*   a { */
+/*     color: cyan; */
+/*     text-decoration: none; */
+/*     &:visited { */
+/*       color: lighten(cyan, 20%); */
+/*     } */
+/*     &#githubLink { */
+/*       text-decoration: underline; */
+/*       font-size: medium; */
+/*     } */
+/*   } */
+/*   img { */
+/*     background-color: #222222; */
+/*     color: white; */
+/**/
+/*     &.ioda { filter: invert(0); } */
+/*   } */
+/* } */
+/**/
+/* body[a="dark"] { @include dark-appearance; } */
+/**/
+/**/
+/* @media (prefers-color-scheme: dark) { */
+/*   body[a="auto"] { @include dark-appearance; } */
+/* } */
+/* // -------------------------------------------- // */
+/**/
+/* // bg color is also needed in html in order to */
+/* // block body's background propagation */
+/* // see: https://stackoverflow.com/a/61265706 */
+/* html, body { background: white; } */
+/**/
+/* html { height: 100%; } */
+/**/
+/* body { */
+/*   color: black; */
+/*   font-family: monospace; */
+/*   font-size: 15px; */
+/*   line-height: 1.4; */
+/*   margin: 0; */
+/*   min-height: 100%; */
+/*   overflow-wrap: break-word; */
+/* } */
+/**/
+/* .post-meta { text-align: right; } */
+/**/
+/* .nav { */
+/*   a { */
+/*     margin-right: 10px; // Adds space to the right of each link */
+/*      */
+/*     &:last-child { */
+/*       margin-right: 0; // Removes the right margin from the last link */
+/*     } */
+/*   } */
+/* } */
+/**/
+/* h2, h3, h4, h5, h6 { margin-top: 3rem; } */
+/**/
+/* hr { margin: 2rem 0; } */
+/**/
+/* p { margin: 1rem 0; } */
+/**/
+/* li { margin: 0.4rem 0; } */
+/**/
+/* *:target { background: yellow; } */
+/**/
+/* .w { */
+/*   max-width: 640px; */
+/*   margin: 0 auto; */
+/*   padding: 4rem 2rem; */
+/* } */
+/**/
+/* hr { */
+/*   text-align: center; */
+/*   border: 0; */
+/**/
+/*   &:before { content: '/////' } */
+/*   &:after { content: attr(data-content) '/////' } */
+/* } */
+/**/
+/* table { width: 100%; } */
+/**/
+/* table, th, td { */
+/*   border: thin solid 222222; */
+/*   border-collapse: collapse; */
+/*   padding: 0.4rem; */
+/* } */
+/**/
+/* code { */
+/*   color: white; */
+/*   background: 222222; */
+/* } */
+/**/
+/* div.highlighter-rouge code { */
+/*   display: block; */
+/*   overflow-x: auto; */
+/*   white-space: pre-wrap; */
+/*   padding: 1rem; */
+/* } */
+/**/
+/* blockquote { */
+/*   font-style: italic; */
+/*   border: thin solid 222222; */
+/*   padding: 1rem; */
+/**/
+/*   p { margin: 0; } */
+/* } */
+/**/
+/* img { */
+/*   max-width: 100%; */
+/*   display: block; */
+/*   margin: 0 auto; */
 /* } */
 
-// -------------- THEME SWITCHER -------------- //
-@mixin dark-appearance {
-  // filter: invert(1);
-  background-color: #222222;
-  color: white;
-  a {
-    color: cyan;
-    text-decoration: none;
-    &:visited {
-      color: lighten(cyan, 20%);
-    }
-    &#githubLink {
-      text-decoration: underline;
-      font-size: medium;
-    }
-  }
-  img {
-    background-color: #222222;
-    color: white;
+// ---------- THEME TOKENS (via CSS variables) ----------
+:root {
+  --bg: #ffffff;
+  --fg: #000000;
+  --link: #0000ee;
+  --link-visited: #0000ee;
 
-    &.ioda { filter: invert(0); }
-  }
+  --border: #222222;
+  --code-bg: #222222;
+  --code-fg: #ffffff;
+
+  --target-bg: #ffff00;
 }
 
-body[a="dark"] { @include dark-appearance; }
+@mixin apply-theme-vars(
+  $bg,
+  $fg,
+  $link,
+  $linkVisited,
+  $border,
+  $codeBg,
+  $codeFg,
+  $targetBg
+) {
+  --bg: #{$bg};
+  --fg: #{$fg};
+  --link: #{$link};
+  --link-visited: #{$linkVisited};
+  --border: #{$border};
+  --code-bg: #{$codeBg};
+  --code-fg: #{$codeFg};
+  --target-bg: #{$targetBg};
+}
 
+// Manual dark mode (your attribute switch)
+body[a="dark"] {
+  @include apply-theme-vars(
+    #222222,
+    #ffffff,
+    cyan,
+    lighten(cyan, 20%),
+    #cccccc,      // border in dark mode (a bit lighter than bg)
+    #111111,      // code block background
+    #ffffff,
+    #3a3a00       // target highlight in dark mode (less blinding)
+  );
+}
 
+// Auto dark mode (OS preference)
 @media (prefers-color-scheme: dark) {
-  body[a="auto"] { @include dark-appearance; }
+  body[a="auto"] {
+    @include apply-theme-vars(
+      #222222,
+      #ffffff,
+      cyan,
+      lighten(cyan, 20%),
+      #cccccc,
+      #111111,
+      #ffffff,
+      #3a3a00
+    );
+  }
 }
-// -------------------------------------------- //
 
-// bg color is also needed in html in order to
-// block body's background propagation
-// see: https://stackoverflow.com/a/61265706
-html, body { background: white; }
-
-html { height: 100%; }
+// ---------- BASE LAYOUT ----------
+html {
+  height: 100%;
+  background: var(--bg); // IMPORTANT: html uses theme bg too
+  color: var(--fg);
+}
 
 body {
-  color: black;
-  font-family: "Iosevka", monospace;
-  font-size: 18px;
+  background: var(--bg); // IMPORTANT: body uses theme bg too
+  color: var(--fg);
+
+  font-family: monospace;
+  font-size: 15px;
   line-height: 1.4;
   margin: 0;
   min-height: 100%;
   overflow-wrap: break-word;
 }
 
+// ---------- CONTENT ----------
 .post-meta { text-align: right; }
 
 .nav {
   a {
-    margin-right: 10px; // Adds space to the right of each link
-    
+    margin-right: 10px;
+
     &:last-child {
-      margin-right: 0; // Removes the right margin from the last link
+      margin-right: 0;
     }
   }
 }
@@ -74,7 +221,7 @@ p { margin: 1rem 0; }
 
 li { margin: 0.4rem 0; }
 
-*:target { background: yellow; }
+*:target { background: var(--target-bg); }
 
 .w {
   max-width: 640px;
@@ -82,25 +229,41 @@ li { margin: 0.4rem 0; }
   padding: 4rem 2rem;
 }
 
+// Fancy hr
 hr {
   text-align: center;
   border: 0;
 
-  &:before { content: '/////' }
-  &:after { content: attr(data-content) '/////' }
+  &:before { content: '/////'; }
+  &:after { content: attr(data-content) '/////'; }
 }
 
+// Links
+a {
+  color: var(--link);
+  text-decoration: none;
+
+  &:visited { color: var(--link-visited); }
+
+  &#githubLink {
+    text-decoration: underline;
+    font-size: medium;
+  }
+}
+
+// Tables
 table { width: 100%; }
 
 table, th, td {
-  border: thin solid 222222;
+  border: thin solid var(--border);
   border-collapse: collapse;
   padding: 0.4rem;
 }
 
+// Code
 code {
-  color: white;
-  background: 222222;
+  color: var(--code-fg);
+  background: var(--code-bg);
 }
 
 div.highlighter-rouge code {
@@ -110,16 +273,21 @@ div.highlighter-rouge code {
   padding: 1rem;
 }
 
+// Blockquotes
 blockquote {
   font-style: italic;
-  border: thin solid 222222;
+  border: thin solid var(--border);
   padding: 1rem;
 
   p { margin: 0; }
 }
 
+// Images
 img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+  background-color: transparent;
+
+  &.ioda { filter: invert(0); } // keep your special-case
 }
