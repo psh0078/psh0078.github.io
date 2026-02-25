@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "a guide to conquering the day"
+title: "let me describe my friend, Procrastination."
 published: true
 ---
 
-### what is this writing about?
+### What is this writing about?
 
 This is my testimony and an on-going fight of mine that I deal with everyday.
-Procrastination is my biggest enemy. Most people never practice discipline.
+Procrastination is my biggest enemy as it is for most of us. Most people never practice discipline.
 They are slaves to instant gratification and laziness. Most of us will die with
 a unfulfilled purpose, not living to the fullness of their life.
 

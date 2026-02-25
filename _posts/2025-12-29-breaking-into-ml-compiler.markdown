@@ -23,3 +23,4 @@ However, facing limitations in the work by one monopolizing company with their
 proprietary software seems just ridiculus and not a viable solution in the
 grand scheme of things. Then, what can we do?
 
+https://ludwigabap.com/posts/how-to-get-into-ml-compilers/

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Roofline Modeling"
+title:  "the performance-oriented mind"
 published: true
 ---
 
@@ -32,12 +32,6 @@ Everytime I read papers and hear talks, I think about performance and tend to lo
 ## How Do I Model Performance?
 
 Roofline model[^1] is a simplified, visual model of performance used to quickly determine whether a program is bound by *memory bandwidth* or *arithmetic bandwidth*.
-
-Hello $ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $.
-
-$$
-\frac{5}{9}
-$$
 
 ## References
 
