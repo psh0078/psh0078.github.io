@@ -14,3 +14,4 @@ while waves rise and fall as though trying to pull me into the ocean.
 Most of the time I spend on coding, I find myself coding with LLMs. When it comes
 to **how** to use AI, I stick to the philosophy of coding with LLMs elaborated
 by [Salvatore Sanfilippo]( https://antirez.com/news/154 ).
+

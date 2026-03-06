@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "the performance-oriented mind"
+title:  "performance modeling"
 published: true
 ---
 

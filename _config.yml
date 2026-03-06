@@ -5,7 +5,8 @@ url: https://psh0078.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   Hi! My name is SeongHo. I am a CS PhD student at Illinois Institute of
-  Technology. The goal of this personal website is to write about deeply researched thoughts.
+  Technology. In this space, I express my thoughts and write about things I
+  work on.
 github_username: psh0078
 
 permalink: /:slug.html
