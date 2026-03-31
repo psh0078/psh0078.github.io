@@ -8,3 +8,6 @@
 - On COSIMO, a co-simulation framework for container orchestration
 
 - gpu performance: wafer.ai github repo
+
+- MantaLab
+    manta ray documentaries.

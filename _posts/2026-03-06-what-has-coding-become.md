@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "What Has Coding Become? A CS PhD Student’s Perspective on Modern Programming"
+title:  "What Has Coding Become?"
 published: true
 ---
 
-## What Has Coding Become?
+## What Has Coding Become? A CS PhD Student’s Perspective on Modern Programming
 
 I write code every day, and I hope I will continue doing so in the future. However, the world is changing rapidly. AI is already better at coding than I am in many ways. This piece is a reflection on my experience with coding in the age of AI.
 

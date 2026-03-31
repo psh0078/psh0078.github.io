@@ -1,6 +1,6 @@
 ---
 layout: page
-title: links
+title: "link dump"
 ---
 
 - [master something](https://sive.rs/htl08)

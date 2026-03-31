@@ -6,7 +6,7 @@ baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're sit
 description: > # description of the site (multiple lines allowed)
   Hi! My name is SeongHo. I am a CS PhD student at Illinois Institute of
   Technology. In this space, I express my thoughts and write about things I
-  work on.
+  work on. I love manta rays btw.
 github_username: psh0078
 
 permalink: /:slug.html
@@ -21,6 +21,11 @@ theme_config:
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: true # show blog description in home page
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
 
 sass:
   style: :compressed

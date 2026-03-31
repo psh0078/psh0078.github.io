@@ -13,8 +13,8 @@ entries:
   # - title: (log)
   #   url: log.html
 
-  - title: (links)
-    url: links.html
+  - title: (link dump)
+    url: link-dump.html
 
   # - title: (ml compiler)
   #   url: ml-compiler.html
