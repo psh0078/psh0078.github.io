@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "What Has Coding Become?"
+title:  "what has coding become?"
 published: true
 ---
 

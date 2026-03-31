@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Optimization of the End"
+title: "optimization of the end"
 published: true
 ---
 
