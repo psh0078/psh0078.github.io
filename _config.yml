@@ -4,8 +4,7 @@ email: nws0078@gmail.com # email of site's author
 url: https://psh0078.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  Hi! My name is SeongHo. I am a CS PhD student at Illinois Institute of
-  Technology. In this space, I express my thoughts and write about things I
+  Hi! My name is SeongHo. In this space, I express my thoughts and write about things I
   work on. I love manta rays btw.
 github_username: psh0078
 

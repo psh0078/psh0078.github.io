@@ -2,10 +2,8 @@
 layout: page
 title: about me
 ---
-My name is SeongHo Park. I am currently a PhD student at Illinois Institute
-of Technology. My research is focused on HPC and Machine Learning.
-
-I want to lift heavier and run faster and longer than yesterday
+My name is SeongHo. I am a PhD student who does research in High Performance
+Computing and Machine Learning.
 
 If someone asked where I see myself in 30 years, I’d shyly say that I
 imagine reading Mark Twain on my balcony, my home standing at the edge of a deep valley,
