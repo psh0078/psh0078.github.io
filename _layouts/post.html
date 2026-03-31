@@ -17,7 +17,16 @@ layout: default
 <article>
   <p class="post-meta">
     <time datetime="{{ page.date }}">{{ page.date | date: site.theme_config.date_format }}</time>
+    &nbsp;·&nbsp;
+    <span id="visit-count">· · ·</span> views
   </p>
+
+  <script>
+    fetch("https://psh0078.goatcounter.com/counter/" + encodeURIComponent(location.pathname) + ".json")
+      .then(r => { console.log("status:", r.status); return r.json(); })
+      .then(d => { console.log("data:", d); document.getElementById("visit-count").textContent = d.count; })
+      .catch(e => { console.error("visit count error:", e); document.getElementById("visit-count").textContent = "—"; });
+  </script>
   
   <h1>{{ page.title }}</h1>
 
