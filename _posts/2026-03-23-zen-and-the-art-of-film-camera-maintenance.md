@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  deep cleaning my film cameras
-published: true
+title: zen and the art of film camera maintenance
+published: false
 ---
 ## What do you need?
 
