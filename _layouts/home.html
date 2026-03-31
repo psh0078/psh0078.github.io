@@ -2,10 +2,15 @@
 layout: default
 ---
 <header>
-  <h1>{{ site.title }}</h1>
-  {%-if site.theme_config.show_description-%}
-    <p>{{ site.description }}</p>
-  {%-endif-%}
+  <div style="display:flex;align-items:flex-start;justify-content:space-between;">
+    <div>
+      <h1>{{ site.title }}</h1>
+      {%-if site.theme_config.show_description-%}
+        <p>{{ site.description }}</p>
+      {%-endif-%}
+    </div>
+    <img src="/assets/images/profile2.JPG" alt="Profile photo" style="width:200px;height:200px;object-fit:cover;object-position:center 20%;flex-shrink:0;margin-left:2rem;">
+  </div>
 </header>
 
 {%-include menu_item.html collection=site.data.menu.entries-%}
