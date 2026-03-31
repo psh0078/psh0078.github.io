@@ -29,11 +29,3 @@ me: I’m often bothered when machine learning or optimization research highligh
 
 Everytime I read papers and hear talks, I think about performance and tend to look at things from performance perspective. For example, at Professor Wang's talk on FHE schemes for DNN, Andre asked him about possible performance degradation from using FHE and Prof. Wang said maybe yeah. I am deeply curious about methodologies in analytical modeling as well as empirical modeling. Honestly, I am also glad because this falls under the category of Andre's research.
 
-## How Do I Model Performance?
-
-Roofline model[^1] is a simplified, visual model of performance used to quickly determine whether a program is bound by *memory bandwidth* or *arithmetic bandwidth*.
-
-## References
-
-[^1]: [What is the roofline model? by Modal]( https://modal.com/gpu-glossary/perf/roofline-model )
-
