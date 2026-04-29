@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "summary of reading: March 2026"
+title:  "summary of reading: march 2026"
 published: true
 ---
 
